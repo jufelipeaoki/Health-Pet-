@@ -1,3 +1,9 @@
+<div aling="center">
+ <img src=""
+"
+
+</div>
+
 >Clínica Veterinária "Health Pet" - Site Institucional
 Bem-vindo ao repositório do site institucional da Clínica Veterinária "Health Pet"! Nosso site tem como objetivo fornecer informações sobre os serviços oferecidos, equipe, horário de funcionamento e como entrar em contato conosco.
 
