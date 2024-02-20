@@ -3,12 +3,11 @@ Bem-vindo ao repositório do site institucional da Clínica Veterinária "Health
 
 <h1>Sobre a Clínica</h1>
 A Clínica Veterinária "Health Pet" é dedicada ao cuidado e bem-estar de animais de estimação. Nossa missão é oferecer serviços veterinários de alta qualidade e atendimento compassivo para todos os animais que atendemos.
-
 <h3>Recursos:</h3>
 Nosso site possui os seguintes recursos:
 
 <h2>Página Inicial:</h2> Apresenta uma breve visão geral da clínica e destaca os principais serviços oferecidos.
-   <img src="/img/Animação.gif" alt="Principal"/>
+  
 <h2>Serviços: </h2> Descreve os serviços veterinários oferecidos, incluindo consultas, vacinação, cirurgias, exames laboratoriais, tratamento de emergência, entre outros.
 <img src="/img/AnimaçãoServiços.gif" alt=""/>
 
