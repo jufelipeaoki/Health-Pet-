@@ -1,0 +1,49 @@
+
+private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (tbBuscaNome.Checked)
+            {
+           tbBuscaNome.Visible = true;     //codigo para que faça uma busca sem aparecer o text box
+                tbBuscacpf.Visible= true;
+            }
+        }
+        private void buscarNome() // metodo para faazer a busca atraves do gridview
+        {
+            Sql = "select * from usuario where nome= @nome";
+            cmd = new MySqlCommand(SqlDbType, BindingDirection, conn);
+            cmd.parameters da = new MySqlDataAdapter();
+            da.selectCommand = cmd;
+
+            DataTable dataTable = new DataTable();
+            da.Fill(dataTable);
+
+            DataGridView.DataSource = dataTable;
+            formataDg();
+        }
+        private void buscaCpf()
+             Sql = "select * from usuario where cpf= @cpf";
+            cmd = new MySqlCommand(SqlDbType, BindingDirection, conn);
+        cmd.parameters da = new MySqlDataAdapter();
+        da.selectCommand = cmd;
+
+            DataTable dataTable = new DataTable();
+        da.Fill(dataTable);
+
+            DataGridView.DataSource = dataTable;
+            formataDg();
+
+
+    }
+APOS ISSO VAI NO RAIO DE AÇAO CLICANDO NO TEXT BOX E SELECIONE O TEXT CHANGE
+
+
+
+ private void textBox1_TextChanged(object sender, EventArgs e)//textbox do nome
+        {
+            tbBuscaNome();// parametro do text box para fazer a busca
+        }
+
+        private void cpf_TextChanged(object sender, EventArgs e)// textox cpf
+        {
+            tbBuscacpf(); // parametro do text box para fazer a busca
+        }

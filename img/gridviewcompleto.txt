@@ -1,0 +1,186 @@
+namespace crud2
+{
+    public partial class Form1 : Form
+    {
+        // aqui é preciso onsumir o objeto da classe para que seja utilizado de forma global em toda parte do codigo
+        banco bd = new banco(); //bd objeto da classe banco
+        string sql; //variavel para guardar os comandos do bd
+        MySqlCommand cmd; // variavel para executar os comandos do mysql da memoria
+        string id;
+        public Form1() // criando para listar todos elemntos do bd
+        {
+            InitializeComponent();
+        }
+        private void formataDG()
+        {
+            dataGridView1.Columns[0].HeaderText= "id"; // lista a ordem dos dados
+            dataGridView1.Columns[1].HeaderText = "nome1";
+            dataGridView1.Columns[2].HeaderText = "cpf1";
+            dataGridView1.Columns[0].Visible = false; // omiti o codigo no grid ao listar
+
+        }
+        private void listar()//parametro(GRIDVIEW)
+        {
+            
+            bd.abrirConn();//abrir a conexao
+            sql = "select * from  cliente order by nome asc";
+            cmd= new MySqlCommand(sql,bd.conn);
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);//armazena dados da tabela como array
+            da.SelectCommand= cmd;//seleciona o comando
+            DataTable dataTable= new DataTable();
+            da.Fill(dataTable); //preencher
+            dataGridView1.DataSource= dataTable;
+        }
+
+        private void button1_Click(object sender, EventArgs e)//(BUTTON ABRIR CONN
+        {
+            bd.abrirConn();// chamando objeto criado la na classe principal para abrir a conexao
+        }
+
+        private void button2_Click(object sender, EventArgs e) //(BUTTON INSERIR)
+        {
+            bd.abrirConn();//ABRIR O BANCO DE DADOS PARA INSERIR OS DADOS
+            sql= "insert into cliente (nome,cpf,rg,celular,sexo,email)values(@nome,@cpf,@rg,@celular,@sexo,@email)"; //parametros para inserir
+            cmd = new MySqlCommand(sql,bd.conn); // comando para conexao
+            cmd.Parameters.AddWithValue("@nome",nome.Text); //passa comando de paramentro com nome do button
+            cmd.Parameters.AddWithValue("@cpf",cpf.Text);
+            cmd.Parameters.AddWithValue("@rg",rg.Text);
+         
+            cmd.Parameters.AddWithValue("@celular",celular.Text);
+            cmd.Parameters.AddWithValue("@sexo",sexo.Text);
+            cmd.Parameters.AddWithValue("@email",email.Text);
+            
+
+            cmd.ExecuteNonQuery(); //executar 
+            //bd.fecharConn(); // por seguranca fechar a conexao
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e) // BUTTON LISTAR
+        {
+            listar();// chama o metodo apenas para listar
+            formataDG();
+        }
+
+        private void delete_Click(object sender, EventArgs e)//(BUTTOM para deletar)
+        {
+            bd.abrirConn();//abrir a conexao
+            sql = "delete  from  cliente order by nome asc";
+            cmd = new MySqlCommand(sql, bd.conn);
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);//armazena dados da tabela como array
+            da.SelectCommand = cmd;//seleciona o comando
+            DataTable dataTable = new DataTable();
+            da.Fill(dataTable);//preencher
+            dataGridView1.DataSource = dataTable;
+
+
+            listar();
+        }
+
+        private void cpf1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)//button editar
+        {
+            bd.abrirConn();
+            sql = "update cliente se nome=@nome,cpf=@cpf where id=@id";
+            cmd = new MySqlCommand(sql,bd.conn);
+            cmd.Parameters.AddWithValue("@nome", nome1.Text);
+            cmd.Parameters.AddWithValue("@cpf", cpf1.Text);
+            cmd.Parameters.AddWithValue("@id",id);
+            cmd.ExecuteNonQuery();
+            listar();
+
+          bd.fecharConn();
+
+            
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            MessageBox.Show(id);
+            //faz a açaao que criamos no raio do gried view em cell
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            bd.abrirConn();
+            sql = "delete from cliente where id=@id";
+            cmd = new MySqlCommand(sql,bd.conn);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.ExecuteNonQuery();
+            listar();
+            if (MessageBox.Show("Deseja Realmente deletar", "MessageBOX", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                MessageBox.Show("Deseja realmente deletar");
+
+            }
+            else
+            {
+                MessageBox.Show("Deletado");
+
+            }
+
+
+            MessageBox.Show("deletado");
+
+            bd.fecharConn();
+            
+
+        }
+
+        private void button5_Click(object sender, EventArgs e) //button combo
+            // abre uma caixa de seleção de apenas os ids que nao irao mostrar no listar atraves 
+            // do grid view
+            //o combobox so carrega apenas um campo da tabela
+        {
+            bd.abrirConn();
+            sql = "select id from cliente";
+            cmd = new MySqlCommand(sql, bd.conn);
+            MySqlDataAdapter da = new MySqlDataAdapter();
+            da.SelectCommand = cmd;
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            comboBox1.DataSource= dt;
+            comboBox1.DisplayMember= "id";
+
+            if (comboBox1.Text == escolha.Text)
+            {
+                comboBox1.Visible = true;
+
+            }
+            else
+            {
+                escolha.Visible = true;
+            }
+
+
+        }
+
+        private void escolha_TextChanged(object sender, EventArgs e)
+        {
+
+
+
+           
+
+
+
+
+
+        }
+    }
+}
