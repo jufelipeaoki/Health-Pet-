@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Caveat:wght@600;700&family=Gluten:wght@200&family=Kalam:wght@400;700&family=Libre+Baskerville:ital@1&family=Lobster&family=Permanent+Marker&family=Poppins:ital,wght@1,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Barriecito', cursive;
+   font-family: 'Caveat', cursive;
+   font-family: 'Gluten', cursive;
+   font-family: 'Kalam', cursive;
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Lobster', cursive;
+   font-family: 'Permanent Marker', cursive;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(img/27885_cc343e1d6b7e04d.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    
+}
+
+h1{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    font-family: 'Libre Baskerville', serif;
+    text-decoration:underline;
+    
+}
+h2{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    font-family: 'Libre Baskerville', serif;
+ 
+}
+
+.input-box{
+    position: relative;
+    width: 310px;
+    margin: 30px auto;
+    border-bottom: 2px solid white;
+}
+
+.input-box label{
+    position: absolute;
+    top: 30%;
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus ~label,/*aqui fazemos a animação do label se subir e descer com transtion*/
+.input-box input:valid ~label{
+    top: -5px;
+}
+
+.input-box input{
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: aliceblue;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+}
+label{
+    color: white;
+    padding: 6px;
+    
+}
+.register-links{
+    font-size: .9em;
+color: #fff;
+text-align: center;
+margin-bottom: 10px;
+margin-top: 15px;
+}
+
+.register-links p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+ 
+    
+}
+
+.register-links p a:hover{
+    text-decoration: underline;
+}
+
