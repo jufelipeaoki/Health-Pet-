@@ -1,0 +1,278 @@
+body, html{
+    margin: 0;
+    font: 16px cursive;
+    color: #777;
+    height: 100%; /*para mostrar a imagem em 100% na para o usuario*/
+  
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.header-principal{
+    background-color: #fffffa;
+    height: 150px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform:capitalize;
+    font-size: 18px;
+     top: 0;
+    
+}
+
+.nav1{
+    text-decoration: none; 
+}
+
+
+.nav1  {
+    display: flex;
+
+}
+.nav1 ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    list-style: none;
+}
+.nav1 a{
+    text-decoration: none;
+    color: #034ea2;
+    font-size: 21px;
+}
+
+.nav1 a:hover{
+    border-bottom: 3px solid black;
+    
+}
+.hist {
+    display: flex;
+
+    justify-content: space-around;
+   
+   width: 100%;
+   height: 130px;
+    margin-top: 50px;
+}
+
+.hist p{
+    align-items: center;
+    margin-top:55px;
+    margin-right: 50px;
+    font-size: 1.1em;
+    font-family: cursive;
+}
+
+.insta,.contato,.whats{
+    display: flex;
+}
+ i{
+    margin-top: 55px ;
+    font-size: 25px;
+}
+
+.conteudo{
+    color: rgb(0, 0, 0);
+    background-color:white ;
+    text-align: justify;
+    padding: 50px 80px;
+}
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+}
+
+/*efeito parallax*/
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+    position: relative;
+height: 800px;
+opacity: 1;
+/*background-repeat: no-repeat; // Aqui faz com que não repita a imagem*/
+background-position: center;
+background-attachment: fixed;/*Faz com a imagem fique fixa*/
+background-size: cover;
+border-radius: 20px;
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: 20px;
+    margin: 10px auto;
+    border-radius: 10px ;
+    font-family: cursive;
+   
+}
+
+
+
+.caixa1{
+background: url(../projeto/img/clinicaVet.jpg);
+background-size: cover;
+}
+
+.caixa2{
+background-image:url(../projeto/img/gatoVet.jpg) ;
+background-size: cover;
+
+
+}
+
+.caixa3
+{
+    background-image: url(../projeto/img/andrew-s-ouo1hbizWwo-unsplash.jpg);
+
+    background-size: cover;
+}
+
+
+
+.Conteudo2-titulo{
+    position: absolute;
+    width: 100%;
+    left:0;
+     top: 45%;
+     text-align: center;
+height: 200px;
+
+
+
+}
+
+
+.Conteudo2-titulo span.titulo{
+    color: #ffffff;
+    background-color: #1c4578;
+    padding: 18px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    text-shadow:  0 0 10px white;
+    box-shadow: 0 0 10px rgb(12, 0, 0);
+    
+    
+}
+
+.conteudo2{
+    background-color: #1c4578;
+      
+}
+
+.caixa4
+{
+    background-image: url(../projeto/img/daria-shatova-46TvM-BVrRI-unsplash.jpg);
+
+    background-size: cover;
+}
+.ultimo{
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+
+.card-group
+{
+    margin-top: 40px;
+    background-color: black;
+    height: 400px;
+}
+
+.vet{
+    display: flex;
+    background-color: #1c4578;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 50px;
+    padding: 5px;
+  
+    text-align: center;
+    margin-left: 5px;
+}
+.vet i{
+    font-size: 75px; 
+}
+.cachorro{
+    padding: 20px;
+    margin-top: 25px;
+    
+}
+
+.medico{
+    padding: 20px;
+    margin-top: 25px;
+}
+.hospital{
+    padding: 20px;
+    margin-top: 25px;
+}
+.hospital a{
+    color: white;
+    text-decoration: none;
+}
+.hospital a:hover{
+   text-decoration: underline; 
+     
+}
+.missao{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+.missao p{
+    text-align: center;
+}
+.missao h3{
+    color: blue;
+    margin-top: 250px;
+}
+.missao span{
+    color:blue;
+    font-weight: 20px;
+    font-size: 30px;
+  
+}
+
+
+footer{
+    background-color: #1c4578;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.informac{
+    margin-top: 90px
+}
+.local{
+    float:left;
+}
+
+@media  (max-width: 360px){
+    header{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+    }
+
+    .input-box{
+        width: 290px;
+    }
+}
