@@ -36,11 +36,11 @@ Nosso site possui os seguintes recursos:
 <h3>Resultados:</h3>
 <img src="img/resultados.gif" alt=""/>
 <h3>Meus agendamentos:</h3>
-<img src="" alt=""/>
+<img src="img/Meus agendamentos.gif" alt=""/>
 <h3>Consulta pet:</h3>
-<img src="" alt=""/>
+<img src="img/Dados Pet.gif" alt=""/>
 <h3>Editar Perfil:</h3>
-<img src="" alt=""/>
+<img src="img/editUser.gif" alt=""/>
 <h3>Dúvidas:</h3>
 <img src="img/Fale conosco cliente.gif" alt=""/>
 <h3>Cadastrar Pet:</h3>
@@ -68,11 +68,11 @@ Se você quiser executar o site localmente em seu computador, siga estas etapas:
 Autor
 <h4>Este site foi desenvolvido por:</h4>
 
-[Cesar Augusto Silva Cunha] Perfil GitHub [Clique Aqui](https://github.com/Cesaracunha)<br>
-[Elmar Gouvea Rodrigues Merelis] Perfil GitHub [Clique Aqui](https://github.com/elmarodrigues)<br>
-[Gustavo Luiz dos Santos] Perfil GitHub [Clique Aqui](https://github.com/gudevs23)<br>
-[João Victor Albuquerque Maia]  Perfil GitHub [Clique Aqui](https://github.com/joaovamaia)<br>
-[Juan Felipe Aoki Guna]  Perfil GitHub [Clique Aqui](https://github.com/jufelipeaoki)<br>
-[Pedro Henrique de Oliveira Perse]  Perfil GitHub [Clique Aqui](https://github.com/PedroPerse)<br>
+[Cesar Augusto Silva Cunha] Perfil GitHub [Clique Aqui!](https://github.com/Cesaracunha)<br>
+[Elmar Gouvea Rodrigues Merelis] Perfil GitHub [Clique Aqui!](https://github.com/elmarodrigues)<br>
+[Gustavo Luiz dos Santos] Perfil GitHub [Clique Aqui!](https://github.com/gudevs23)<br>
+[João Victor Albuquerque Maia]  Perfil GitHub [Clique Aqui!](https://github.com/joaovamaia)<br>
+[Juan Felipe Aoki Guna]  Perfil GitHub [Clique Aqui!](https://github.com/jufelipeaoki)<br>
+[Pedro Henrique de Oliveira Perse]  Perfil GitHub [Clique Aqui!](https://github.com/PedroPerse)<br>
 
 
