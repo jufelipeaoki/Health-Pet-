@@ -1,8 +1,4 @@
-<div aling="center">
- <img src=""
-"
-
-</div>
+<div align="center">    <img width="50%" title="titulo da imagem" src="img/logo1.1.png"/><div>
 
 >Clínica Veterinária "Health Pet" - Site Institucional
 Bem-vindo ao repositório do site institucional da Clínica Veterinária "Health Pet"! Nosso site tem como objetivo fornecer informações sobre os serviços oferecidos, equipe, horário de funcionamento e como entrar em contato conosco.
@@ -15,38 +11,39 @@ Nosso site possui os seguintes recursos:
 <h2>Página Inicial:</h2> Apresenta uma breve visão geral da clínica e destaca os principais serviços oferecidos.
 <img src="img/princ.gif"/>
 <h2>Serviços: </h2> Descreve os serviços veterinários oferecidos, incluindo consultas, vacinação, cirurgias, exames laboratoriais, tratamento de emergência, entre outros.
-<img src="img/princ.gif" alt=""/>
+<img src="img/serviços.gif" alt=""/>
 
 <h2>Quem somos: </h2>
-<img src="/img/AnimaçãoQuemSomos.gif" alt=""/>
+<img src="img/Quem Somos.gif" alt=""/>
 
 <h2>Fale conosco:</h2> Oferece diferentes formas de entrar em contato conosco, como telefone, e-mail e formulário de contato online.
-<img src="/img/fale conosco.png" alt=""/>
+<img src="img/fale conosoc.gif" alt=""/>
  <hr>
-<h1>Sistema usuário </h1>
+<h1 style="font-family:cursive;">Aqui o Usuário tem como opção Login/Cadastro. </h1>
 <h3>Login: </h3>
-{IMG-link}
+<img src="img/login.gif" alt=""/>
 <h3>Esqueceu sua senha:</h3>
-{IMG-link}
+<img src="" alt=""/>
 <h3>Cadastrar:</h3>
-{IMG-link}
-<h1>Home sistema usuário:</h1>
-{IMG-link}
+<img src="img/cadastro.gif" alt=""/>
+<hr>
+<h1>Sistema Usuário Web:</h1>
+<img src="img/area do usuário home.gif" alt=""/>
 <h3>Tela agendar:</h3>
-{IMG-link}
+<img src="img/agendamento pet.gif" alt=""/>
 <h3>Resultados:</h3>
-{IMG-link}
+<img src="" alt=""/>
 <h3>Meus agendamentos:</h3>
-{IMG-link}
+<img src="" alt=""/>
 <h3>Consulta pet:</h3>
-{IMG-link}
+<img src="" alt=""/>
 <h3>Editar Perfil:</h3>
-{IMG-link}
+<img src="" alt=""/>
 <h3>Dúvidas:</h3>
-{IMG-link}
-<h3>Cadastrar pet:</h3>
-{IMG-link}
-
+<img src="img/Fale conosco cliente.gif" alt=""/>
+<h3>Cadastrar Pet:</h3>
+<img src="img/Cadastro-Pet.gif" alt=""/>
+<hr>
 <h2>Tecnologias Utilizadas</h2>
 O site da Clínica Veterinária "Health Pet" foi desenvolvido utilizando as seguintes tecnologias:
 
