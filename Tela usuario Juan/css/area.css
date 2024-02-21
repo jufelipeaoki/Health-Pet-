@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barriecito', cursive;
+    font-family: 'Gluten', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+background: rgb(211, 211, 211);
+
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    
+    height: 150px;
+/*background-color:rgb(190, 225, 255);*/
+background-color:rgb(96, 137, 173);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+
+
+.navbar a{
+    position: relative;
+font-size: 18px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: 500;
+margin-right: 30px;
+font-family: cursive;
+}
+.home
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: cursive;
+}
+
+
+.navbar a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 51, 0);
+    border-radius: 5px;
+    transform: translateY(5px);
+    opacity: 0;
+    transition: .2s;
+}
+
+.navbar a:hover::after{
+    transform: translateY(0);
+    opacity: 1;
+}
+.pesquisa{
+    width: 250px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(129, 128, 128);
+    margin-left: 100px;
+}
+
+.pesquisa input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.pesquisa input::placeholder{
+color: rgb(255, 255, 255);
+}
+.pesquisa button{
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa input i{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+section .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 25%;
+     height: 400px;
+    width: 50%;
+    border-radius: 30px;
+  
+    
+}
+
+
+
+
+h4{
+    margin: 20px;
+    font-size: 20px;
+    background: rgb(0, 6, 12);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:cursive ;
+  }
+  
+
+  .card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgb(109, 170, 189);
+    padding: 30px;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    background-position: center;
+    background-size:cover ;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    
+  }
+
+  .card p{
+    margin-top: 10px;
+    font-family:cursive ;
+
+  }
+
+
+
+.card:hover{
+background-color: aliceblue;
+transition: .2s;
+color: black;
+}
+.card button{
+    width: 200px;
+    height:30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px wheat;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-family:cursive ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+/*Meio*/
+main {
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.AgendaText h2{
+    color: white;
+}
+
+footer{
+    background-color:rgb(96, 137, 173);
+color: white;
+    /*background-color:rgb(0, 8, 15);*/
+width: 100%;
+padding:50px 15%;
+    display: flex;
+}
+footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 18px;
+
+    font-family: cursive;
+
+}
+
+
+
+
+.col-2 form input{
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+border: none;
+
+}
+
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 30px ;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.fim{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+ 
