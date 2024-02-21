@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barriecito', cursive;
+    font-family: 'Gluten', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+background-color: rgb(224, 224, 224);
+ 
+}
+.header{
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 2px 19.5%;
+    height: 150px;
+/*background-color:rgb(190, 225, 255);*/
+/*background-color:rgb(96, 137, 173);*/
+background-color: brown;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+ 
+ 
+ 
+ 
+.navbar a{
+    position: relative;
+font-size: 18px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: 500;
+margin-right: 30px;
+font-family: cursive;
+}
+.home
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: cursive;
+}
+ 
+ 
+.navbar a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 51, 0);
+    border-radius: 5px;
+    transform: translateY(5px);
+    opacity: 0;
+    transition: .2s;
+}
+ 
+.navbar a:hover::after{
+    transform: translateY(0);
+    opacity: 1;
+}
+.pesquisa{
+    width: 250px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(129, 128, 128);
+    margin-left: 100px;
+}
+ 
+.pesquisa input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+ 
+.pesquisa input::placeholder{
+color: rgb(255, 255, 255);
+}
+.pesquisa button{
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa input i{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.div1{
+    /*border: 2px solid black;*/
+    margin-top: -36px;
+/*    padding: 50px;*/
+    background-color: white;
+  padding-left: 415px;
+  height: 200px;
+  padding-top: 50px;
+
+}
+.div1 a{
+    text-decoration: none; 
+
+}
+.div1 p{
+    font-size: 0.875rem;
+}
+
+#inicio{
+    /*color: rgb(96, 137, 173);*/
+    color: brown;
+    font-weight: bold;
+    /*font-size: 15px;*/
+    font-size: 0.875rem;
+    
+}
+
+#continuacao{
+    font-weight: bold;
+    color: #454545;
+    list-style: none;
+    /*font-size: 15px;*/
+    font-size: 0.875rem;
+}
+
+#h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px 30px 0px;
+    /*text-decoration:underline;*/
+}
+
+main{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    border: 2px solid black;*/
+    margin-top: 40px;    
+    width: 50%;
+    height: 415px;
+    background-color: aliceblue;
+
+    
+}
+.button{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    
+}
+
+
+main a{
+    text-decoration: none;
+    color: black;
+   /* background-color: white;*/
+    padding: 3px;
+    padding: 0px 10px 0px 10px;
+}
+
+.flecha{
+    margin-left: 10px ;
+    display: flex;
+    justify-content: center;
+}
+
+form article {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fild{
+    text-align: center;
+    height: 415px   ;
+}
+
+/* Estilo para o container do checkbox */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Oculta o input padrão */
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o marcador (a caixa de seleção personalizada) */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+  }
+  
+  /* Estilizando o marcador quando o checkbox está marcado */
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Estilo do símbolo de check (v) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Exibe o símbolo de check quando o checkbox está marcado */
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Estilo do símbolo de check (v) */
+  .checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  /* Estilizando o hr para reduzir sua altura */
+.hr-menor {
+    width: 50%;
+    margin-left: 24%;
+  }
