@@ -49,11 +49,15 @@ Nosso site possui os seguintes recursos:
 <h2>Tecnologias Utilizadas</h2>
 O site da Clínica Veterinária "Health Pet" foi desenvolvido utilizando as seguintes tecnologias:
 
-<p>+HTML5</p>
-<p>+CSS3</p>
-<p>+Bootstrap</p>
-<p>+JavaScript</p>
-<p>+PHP</p>
+* HTML5
+
+* CSS3
+
+* Bootstrap
+
+* JavaScript
+
+* PHP
 
 <h3>Como Contribuir</h3><hr>
 Se você quiser contribuir para o nosso site, sinta-se à vontade para fazer um fork deste repositório, fazer as alterações desejadas e enviar um pull request. Estamos abertos a sugestões de melhorias, correções de bugs e adição de novos recursos.
