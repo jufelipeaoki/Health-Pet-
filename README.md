@@ -64,11 +64,11 @@ Se você quiser executar o site localmente em seu computador, siga estas etapas:
 Autor
 <h4>Este site foi desenvolvido por:</h4>
 
-[Cesar Augusto Silva Cunha] Perfil GitHub [Clique Aqui](https://github.com/Cesaracunha)
-[Elmar Gouvea Rodrigues Merelis] Perfil GitHub [Clique Aqui](https://github.com/elmarodrigues)
-<[Gustavo Luiz dos Santos] Perfil GitHub [Clique Aqui](https://github.com/gudevs23)
-[João Victor Albuquerque Maia]  Perfil GitHub [Clique Aqui](https://github.com/joaovamaia)
-[Juan Felipe Aoki Guna]  Perfil GitHub [Clique Aqui](https://github.com/jufelipeaoki)
-[Pedro Henrique de Oliveira Perse]  Perfil GitHub [Clique Aqui](https://github.com/PedroPerse)
+[Cesar Augusto Silva Cunha] Perfil GitHub [Clique Aqui](https://github.com/Cesaracunha)<br>
+[Elmar Gouvea Rodrigues Merelis] Perfil GitHub [Clique Aqui](https://github.com/elmarodrigues)<br>
+[Gustavo Luiz dos Santos] Perfil GitHub [Clique Aqui](https://github.com/gudevs23)<br>
+[João Victor Albuquerque Maia]  Perfil GitHub [Clique Aqui](https://github.com/joaovamaia)<br>
+[Juan Felipe Aoki Guna]  Perfil GitHub [Clique Aqui](https://github.com/jufelipeaoki)<br>
+[Pedro Henrique de Oliveira Perse]  Perfil GitHub [Clique Aqui](https://github.com/PedroPerse)<br>
 
 
