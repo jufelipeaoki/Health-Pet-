@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #ffffff ;
+}
+
+.header-principal{
+    background-color: #fffffa;
+    height: 150px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform:capitalize;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    
+}
+
+
+
+.nav1{
+    text-decoration: none; 
+}
+
+.nav1  {
+    display: flex;
+
+}
+.nav1 ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav1 a{
+    text-decoration: none;
+    color: #034ea2;
+}
+
+.nav1 a:hover{
+    border-bottom: 3px solid black;
+    
+}
+
+.foto-apresentacao{
+    display: flex;
+    
+}
+
+.header-gato{
+    background-image: url(img/gato-ap.jpg);
+    padding: 210px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.cor{
+    background: white;
+    width: 100%;
+    height: 45px;
+}
+.entrar{
+    display: flex;
+    padding: 1px;
+    justify-content: start;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(206, 216, 226);
+    width: 215px;
+    
+}
+
+#logon{
+    display: flex;
+    text-align: center;
+}
+
+#logon ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin-right: 279px;
+
+}
+
+#logon a{
+    text-decoration: none;
+    padding: 5px;
+    color: #6f9abbcc;;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+   
+}
+
+#logon a:hover{
+    text-decoration: underline 2px #034ea2;
+
+}
+.section-n1{
+    background-color: #1c4578;
+}
+
+article{
+    display: flex;
+    gap: 60px;
+}
+
+article div{
+    margin: 50px;
+}       
+
+#row{
+    border-radius: 15px ;
+    background-color: #2196f3;
+    padding-bottom: 70px;
+    padding-top: 10PX;
+    color: #ffffff;
+}
+
+#row a{
+    border-radius: 2px;
+    background-color: #5a6c81;
+    text-decoration: none;
+    list-style: none;
+    color: #fffffa;
+    padding: 2px;
+} 
+
+#row a:hover{
+    text-decoration: underline 2px  ;
+}
+
+
+
+#tit{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+    color: #ffffff;
+    list-style: none;
+    text-transform:inherit;
+    padding-top: 50px;
+    
+}
+
+#tit a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgb(223, 169, 69);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+#tit a:hover{
+    text-decoration: underline 2px;
+}
+
+
+.carousel-inner{
+   
+   display: flex;
+   
+  
+}
+
+#carouselExampleCaption{
+    background-color: #2196f3;
+}
+
+.d-block {
+    height: 200px;
+}
+
+#titulo-produto-destaque{
+    color: #6f9abbcc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+
+#h2-title{
+    color: #ffffff;
+    margin: 70px 0px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 332px;
+    font-size: 50px;
+    
+}
+

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health-Pet | Venha cuidar da saúde do seu pet conosco| Home - Blog </title>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <header id="home" class="header-principal">
+    <img width="250px" height="250px" src="img/logo1.1.png" alt="">
+
+    <nav class=" nav1">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="../Petshop/serviços.html">Serviços</a></li>
+      <li><a href="../projeto/Quem_somos.html">Quem Somos</a></li>
+        <li><a href="../Logon.old/login2.0.php">Login</a></li>
+        <li><a href="../contato/faleconosco.php">Fale conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <header class="header-gato">
+
+ 
+  </header>
+
+  <br><br>
+  <main class="main-prin">
+
+    <section class="section-n1">
+
+      <div id="tit" class="container d-flex">
+        <h1>Linha de Produtos</h1>
+
+        <li><a href="../Petshop/serviços.html">Todos os serviços</a></li>
+
+
+      </div>
+
+      <article id="article-remedio" class="container d-flex">
+        <div class="col">
+          <div id="row" class="row"><abbr title="Linha de produtos com diferentes ativos para o combate e controle de ectoparasitas como pulgas, carrapatos e sarnas. Em diferentes apresentações: comprimidos palatáveis, coleira, sabonete e shampoo."><img width="300px" height="300px" src="img/cao1.png" alt=""></abbr>
+            <p><br><br> <a href="#"> Antiparasitário</a></p>
+          </div>
+          <div id="row" class="row"><abbr title="Linha de shampoo e sabonete à base de Clorexidina agindo diretamente na pele do animal. Exerce função importante na manutenção da saúde da pele e do pelo dos animais."><img width="300px" height="300px" src="img/cao2.png" alt=""></abbr>
+            <p> <br><br> <a href="#"> Demartológico</a></p>
+          </div>
+
+        </div>
+
+        <div class="col">
+          <div id="row" class="row"><abbr title="Antihelminticos de amplo espectro de ação agindo contra vermes redondos e chatos. Fundamental na rotina clínica de Médicos Veterinários é um vermífugo palatável à base de Febantel, Praziquantel, Pamoato de Pirantel. Possui uma apresentação específica para gatos."><img width="300px" height="300px" src="img/cao3.png" alt=""></abbr>
+            <p> <br><br> <a href="#"> Vermífugos</a></p>
+          </div>
+
+          <div id="row" class="row"><abbr title="Antimicrobianos palatáveis, Doxinew a base de Doxiciclina, e Enronew a base Enrofloxacina. O primeiro utilizado no tratamento de infestações por Ehrlichia canis e Rickettsia rickettssii, gastrointestinais, geniturinário, pododermatite, otites e leptospirose. E o segundo para infecções dérmicas, infecções de ouvido, tratamento gastrointestinal (diarreia), infecções respiratórias e infecções gênito urinárias. Atualmente vem sendo recomendada em abordagens clínicas de animais com Leishmaniose."><img width="300px" height="300px" src="img/gato1.png" alt=""></abbr>
+            <p> <br><br> <a href="#"> Antibióticos</a></p>
+          </div>
+
+        </div>
+
+        <div class="col">
+          <div id="row" class="row"><abbr title="MELOXIWORLD é um anti-inflamatório, analgésico e antipirético não esteroidal para cães e gatos. Produto de uso oral, palatável, sua utilização ocorre no controle da dor aguda, febre e inflamação."><img width="300px" height="300px" src="img/cao4.png" alt=""></abbr>
+            <p><br><br> <a href="#"> Anti-Inflamatório</a></p>
+          </div>
+
+          <div id="row" class="row"><abbr title="Trazendo como diferencial a originalidade de um shampoo específico para cada tipo de pele e pelo, respeitando a diferença de pH das espécies, a Word Raças apresenta uma família completa de shampoos para raças específicas identificando o produto certo para o seu animal. Shampoo específico para gatos ."><img width="300px" height="300px" src="img/cao5.png" alt=""></abbr>
+            <p><br><br> <a href="#"> Embelezamento</a></p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="container">
+
+      <h1 id="titulo-produto-destaque">Produtos em Destaque</h1>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img style="margin-left: 300px;" width="700px" height="500px" src="IMG/p1.png">
+            <h4 style="font-size: 20px;"><a href="#"> Embelezamento</a></h4>
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h5>First slide label</h5>-->
+              <p>Labrador e Golden Retriever</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img style="margin-left: 300px;" width="700px" height="500px" src="IMG/p2.png" class="" alt="...">
+            <h4 style="font-size: 20px;"><a href="#"> Antibióticos</a></h4>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5> -->
+              <p>Doxinew 50mg.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img style="margin-left: 300px;" width="700px" height="500px" src="IMG/p3.png" class="" alt="...">
+            <h4 style="font-size: 20px;"><a href="#"> Antiparasitário</a></h4>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5> -->
+              <p>Sabonete Antiparasitário World Veterinária.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="4000">
+            <img style="margin-left: 300px;" width="700px" height="500px" src="IMG/p4.png" class="" alt="...">
+            <h4 style="font-size: 20px;"><a href="#"> Antiparasitário</a></h4>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5> -->
+              <p>IverCanis 12mg</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="5000">
+            <img style="margin-left: 300px;" width="700px" height="500px" src="IMG/p5.png" class="" alt="...">
+            <h4 style="font-size: 20px;"><a href="#"> Antibióticos</a></h4>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5> -->
+              <p>CefaWorld 300mg</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img style="margin-left: 300px;" width="700px" height="500px" src="IMG/p6.png" class="" alt="...">
+            <h4 style="font-size: 20px;"><a href="#"> Antiparasitário</a></h4>
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h5>Third slide label</h5>-->
+              <p>IverCanis 6mg</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+  </main>
+
+  
+
+  <section id="blog">
+
+    <h2 id="h2-title">Blog</h2>
+    
+    <article>
+
+
+      <div class="row">
+        <div class="col"><img width="350px" height="350px" src="img/blog4.jpg" alt=""><br>
+          <span class="chip">sexta-feira, 10 novembro</span><br><br>
+          <h5 class="blog-chip">ANTIPARASITÁRIOS WORLD VETERINÁRIA: Seu pet livre de pulgas e carrapatos!</h5>
+        </div>
+        <div class="col"><img width="350px" height="350px" src="img/blog5.jpg " alt=""><br>
+          <span class="chip">sexta-feira, 10 novembro</span><br><br>
+          <h5 class="blog-chip">ANTIPARASITÁRIOS WORLD VETERINÁRIA: Seu pet livre de pulgas e carrapatos!</h5>
+        </div>
+        <div class="col"><img width="350px" height="350px" src="img/blog6.jpg " alt=""><br>
+          <span class="chip">
+            
+          </span><br><br>
+          <h5 class="blog-chip">ANTIPARASITÁRIOS WORLD VETERINÁRIA: Seu pet livre de pulgas e carrapatos!</h5>
+        </div>
+      </div>
+
+    </article>
+  </section>
+
+
+
+  <footer>
+    <section class="">
+      <!-- Footer -->
+      <footer class="text-center text-white" style="background-color: #0a4275;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: CTA -->
+          <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+              <span class="me-3">Cadastre-se gratuitamente</span>
+              <button type="button" class="btn btn-outline-light btn-rounded">
+                Increva-se!
+              </button>
+            </p>
+          </section>
+          <!-- Section: CTA -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">Health-Pet.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </section>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
