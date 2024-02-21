@@ -1,4 +1,4 @@
-<div align="center">    <img width="50%" title="titulo da imagem" src="img/logo1.1.png"/><div>
+<div align="center">    <img width="50%" title="titulo da imagem" src="img/logo1.1.png"/>
 
 >Clínica Veterinária "Health Pet" - Site Institucional
 Bem-vindo ao repositório do site institucional da Clínica Veterinária "Health Pet"! Nosso site tem como objetivo fornecer informações sobre os serviços oferecidos, equipe, horário de funcionamento e como entrar em contato conosco.
@@ -19,11 +19,13 @@ Nosso site possui os seguintes recursos:
 <h2>Fale conosco:</h2> Oferece diferentes formas de entrar em contato conosco, como telefone, e-mail e formulário de contato online.
 <img src="img/fale conosoc.gif" alt=""/>
  <hr>
+ 
 <h1 style="font-family:cursive;">Aqui o Usuário tem como opção Login/Cadastro. </h1>
 <h3>Login: </h3>
 <img src="img/login.gif" alt=""/>
 <h3>Esqueceu sua senha:</h3>
-<img src="" alt=""/>
+<img src="img/EsqueceuSenha.gif"/>
+
 <h3>Cadastrar:</h3>
 <img src="img/cadastro.gif" alt=""/>
 <hr>
@@ -43,7 +45,7 @@ Nosso site possui os seguintes recursos:
 <img src="img/Fale conosco cliente.gif" alt=""/>
 <h3>Cadastrar Pet:</h3>
 <img src="img/Cadastro-Pet.gif" alt=""/>
-<hr>
+<hr></div>
 <h2>Tecnologias Utilizadas</h2>
 O site da Clínica Veterinária "Health Pet" foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -60,7 +62,7 @@ Se você quiser contribuir para o nosso site, sinta-se à vontade para fazer um 
 Se você quiser executar o site localmente em seu computador, siga estas etapas:
 
 Autor
-Este site foi desenvolvido por:
+<h4>Este site foi desenvolvido por:</h4>
 <ul><a>
 <li>[Cesar Augusto Silva Cunha] </li>  Perfil GitHub [Clique Aqui](https://github.com/Cesaracunha)
 <li>[Elmar Gouvea Rodrigues Merelis] </li> Perfil GitHub [Clique Aqui](https://github.com/elmarodrigues)
